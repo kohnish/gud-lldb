@@ -173,3 +173,5 @@ and source-file directory for your debugger."
   (setq comint-prompt-regexp  "\\(^\\|\n\\)\\*")
   (setq paragraph-start comint-prompt-regexp)
   (run-hooks 'lldb-mode-hook))
+
+(provide 'gud-lldb)
